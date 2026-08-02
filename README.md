@@ -58,10 +58,12 @@ source("Does_financial_literacy_increase_participation_in_the_stock_market.R")
 
 ```text
 .
-├── data/
-│   └── Finlit.csv
+.
 ├── Does_financial_literacy_increase_participation_in_the_stock_market.R
 └── README.md
+
+Required but not included:
+data/Finlit.csv
 ```
 
 ## Tools
