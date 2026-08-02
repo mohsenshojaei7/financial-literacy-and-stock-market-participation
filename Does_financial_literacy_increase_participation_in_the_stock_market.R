@@ -3,17 +3,15 @@
 # clear workspace
 # rm(list = ls())
 
-# load relevant packages
-install.packages(c("car", "AER", "stargazer", "lmtest", "sandwich"))
-require(car)
-require(AER)
-require(stargazer)
-require(lmtest)
-require(sandwich)
+# Required packages
+library(car)
+library(AER)
+library(stargazer)
+library(lmtest)
+library(sandwich)
 
-# load the data
-finlit <- read.csv("C:/Users/asmam/OneDrive/SEMESTER TWO/FIE401/3. Assignment Three/Finlit.csv")
-
+# Load data using a repository-relative path
+finlit <- read.csv(file.path("data", "Finlit.csv"))
 ## Part 1.
 
 # Adjustment of age
